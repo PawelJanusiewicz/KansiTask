@@ -1,0 +1,34 @@
+body {
+  margin-top: 110px;
+  background-color: #f8f3ea;
+  color: #000; }
+  body a {
+    color: #254e7b; }
+  body header {
+    display: block;
+    background-color: #5584b1;
+    height: 9%; }
+  body footer {
+    display: block;
+    background-color: #6CB4CC;
+    height: 5%; }
+  body .inputBox {
+    height: 200px; }
+  body .message {
+    color: #3c763d; }
+  body .shadowBox {
+    box-shadow: 1px 1px 1px 1px #555; }
+  body .postBox {
+    background-color: #cbe2ef; }
+  body .mainPostBox {
+    background-color: #5584b1;
+    color: #cbe2ef; }
+  body .importantTextColor {
+    color: #000; }
+  body .postText {
+    color: #254e7b; }
+  body .linkStyle {
+    color: #000;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

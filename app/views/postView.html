@@ -1,0 +1,17 @@
+<table ng-repeat="post in posts" class="table table-bordered mainPostBox shadowBox">
+    <tr>
+        <th><span class="glyphicon glyphicon-user importantTextColor"></span> autor {{ post.userId }}</br>
+            <span class="importantTextColor">Tytuł: </span>{{ post.title}}</br></br>
+            <span class="importantTextColor">Treść:</span></br>{{ post.body }}
+        </th>
+    </tr>
+</table>
+
+<table ng-repeat="comment in comments" class="table table-bordered shadowBox postBox">
+    <tr>
+        <th>Komentarz: {{ comment.name }}</br>
+            <span class="glyphicon glyphicon-envelope"> {{ comment.email }}</br></br>
+            <span class="glyphicon glyphicon-pencil"> {{ comment.body }}</br>
+        </th>
+    </tr>
+</table>

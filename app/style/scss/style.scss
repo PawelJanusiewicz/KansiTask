@@ -1,0 +1,44 @@
+body{
+    margin-top: 110px;
+    background-color: #f8f3ea;
+    color: #000;
+    a{
+        color: #254e7b;
+    }
+    header{
+        display: block;
+        background-color: #5584b1;
+        height: 9%;
+    }
+    footer{
+        display: block;
+        background-color: #6CB4CC;
+        height: 5%;
+    }
+    .inputBox{
+        height: 200px;
+    }
+    .message{
+        color: #3c763d;
+    }
+    .shadowBox{
+        box-shadow: 1px 1px 1px 1px #555;
+    }
+    .postBox{
+        background-color: #cbe2ef;
+    }
+    .mainPostBox{
+        background-color: #5584b1;
+        color: #cbe2ef;
+    }
+    .importantTextColor{
+        color: #000;
+    }
+    .postText{
+        color: #254e7b;
+    }
+    .linkStyle{
+        color: #000;
+        text-decoration: none;
+    }
+}

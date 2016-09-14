@@ -1,0 +1,15 @@
+<div>
+    <div class="message">
+        <b>{{messages.message}}</b>
+    </div>
+    <ng-form name="creatPost">
+        <label>Tytuł</label>
+        <input type="text" ng-model="title" class="form-control shadowBox">
+        </br>
+        <label>Treść</label>
+        <textarea rows="6" ng-model="content" class="form-control shadowBox">
+        </textarea>
+        </br>
+        <button ng-click="add()" class="btn btn-primary shadowBox">Utwórz posta</button>
+    </ng-form>
+</div>
